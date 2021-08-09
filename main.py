@@ -41,7 +41,6 @@ def crop_to_circle(im):
 def get_name_ava(id, i2):
     ava = vk.users.get(user_ids=id, fields='photo_50')
     name = ava[0]['first_name']
-    r = requests.get(ava[0]['photo_50'])
     picture = requests.get(ava[0]['photo_50'])
     photoPath = f"ava{i2}.jpg"
     out = open(photoPath, "wb")
