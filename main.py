@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageChops
 from vk_api.longpoll import VkLongPoll, VkEventType
 
 
-fonts_path = '/root/delBot/vk.ttf'
+fonts_path = 'vk.ttf'
 key_log = '!л'
 key_logchat = '!лог'
 key_unlogchat = '!анлог'
